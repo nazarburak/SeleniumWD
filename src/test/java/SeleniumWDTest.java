@@ -76,9 +76,7 @@ public class SeleniumWDTest {
         presentationSleep();
         driver.findElement(By.cssSelector("a.nav-link.dropdown-toggle")).click();
         presentationSleep();
-//        driver.findElement(By.cssSelector("a.see-all")).click();
-//        presentationSleep();
-        driver.findElement(By.xpath("//a[text()='Mac (1)']")).click(); //imac
+        driver.findElement(By.xpath("//a[text()='Mac (1)']")).click(); // try to find link with text Mac (1)
         presentationSleep();
 
 
